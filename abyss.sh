@@ -142,7 +142,7 @@ apt update
 apt upgrade
 pkg install python
 mv Instagram-Follower-Scraper $HOME
-cd $HOME/Instagram-Followers-Scraper
+cd $HOME/Instagram-Follower-Scraper
 pip install -r requirements.txt
 python instabot.py
 fi
