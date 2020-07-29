@@ -192,7 +192,7 @@ git clone https://github.com/N74NK/taig
 mv taig $HOME
 cd $HOME/taig
 pip install -r requirements.txt
-python igbot.py
+python taig.py
 fi
 
 if [ $asu = 10 ] || [ $asu = 10 ]
