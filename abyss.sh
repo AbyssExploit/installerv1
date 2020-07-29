@@ -138,9 +138,6 @@ echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
 sleep 3
 apt install git
 git clone  https://github.com/nOOBIE-nOOBIE/Instagram-Follower-Scraper
-apt update
-apt upgrade
-pkg install python
 mv Instagram-Follower-Scraper $HOME
 cd $HOME/Instagram-Follower-Scraper
 pip install -r requirements.txt
