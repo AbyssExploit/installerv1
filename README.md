@@ -13,13 +13,13 @@ Untuk Instagram
 
 Cara Install Di Termux
 
-$ apt update && apt upgrade
-$ pkg install git
-$ pkg install bash
-$ git clone https://github.com/AbyssExploit/installerv1
-$ cd installerv1
-$ bash setup.sh
-$ bash abyss.sh
+# apt update && apt upgrade
+# pkg install git
+# pkg install bash
+# git clone https://github.com/AbyssExploit/installerv1
+# cd installerv1
+# bash setup.sh
+# bash abyss.sh
 
 Linux
 
