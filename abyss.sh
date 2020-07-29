@@ -1,5 +1,6 @@
 #!/system/xbin/bash
-
+#abysswalker
+#recode?lu_memang_nub
 
 blue='\033[34;1m'
 green='\033[32;1m'
