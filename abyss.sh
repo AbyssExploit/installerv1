@@ -141,6 +141,8 @@ git clone  https://github.com/nOOBIE-nOOBIE/Instagram-Follower-Scraper
 mv Instagram-Follower-Scraper $HOME
 cd $HOME/Instagram-Follower-Scraper
 pip install -r requirements.txt
+pip install setuptools
+pip install instaloader
 python instabot.py
 fi
 
