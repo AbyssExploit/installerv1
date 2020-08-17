@@ -43,6 +43,9 @@ echo -e "__________________________________" | lolcat
 echo -e "9.Tools Instagram Bot v2 " | lolcat
 echo -e "__________________________________" | lolcat
 echo -e "10.Tools Instagram Bot v3 " | lolcat
+echo -e "__________________________________" | lolcat
+echo -e "11.Tools Open Source Instagram (OSI)" | lolcat
+echo ""
 echo -e "0.Keluar" | lolcat
 read -p "Root@AbyssWalker ~# " asu
 
@@ -208,6 +211,19 @@ cd $HOME/ig
 unzip node_modules.zip
 npm install
 node index.js
+fi
+
+if [ $asu = 11 ] || [ $asu = 11 ]
+then
+figlet Darknet | lolcat
+echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
+sleep 3
+git clone https://github.com/th3unkn0n/osi.ig.git
+mv osi.ig $HOME
+cd $HOME/osi.ig
+chmod +x install.sh
+bash install.sh
+python main.py -u
 fi
 
 if [ $asu = 0 ] || [ $asu = 0 ]
