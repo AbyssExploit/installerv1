@@ -13,3 +13,5 @@ pip2 install requests
 pip2 install mechanize
 pip install requests
 pip install mechanize
+
+xdg-open https://www.youtube.com/channel/UCszrYhQBsdEQJ4VIQlijIlA
