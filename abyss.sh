@@ -233,5 +233,6 @@ echo -e "No System Is Safe" | lolcat
 echo -e "Be Carrefuly On Internet" | lolcat
 echo -e "Malware Everywhere" | lolcat
 echo -e "Thanks For Use This Tools" | lolcat
+xdg-open https://www.youtube.com/channel/UCszrYhQBsdEQJ4VIQlijIlA
 exit
 fi
