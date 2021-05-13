@@ -16,11 +16,25 @@ figlet Mix Tools | lolcat
 
 
 
-echo -e " Welcome To Mix Tools Instagram" | lolcat
-echo -e " Author    : Abyss Walker" | lolcat
-echo -e " Youtube   : Abyss Walker" | lolcat
-echo -e " Instagram : abysswalker260" | lolcat
-
+toilet --metal -f future -t "  Welcome Back"
+toilet --metal -f small -t " Abyss Walker"
+echo ""
+echo -e "$line Welcome To Instagram Mix Tools"
+echo ""
+echo -e "$line Big Thanks To All Authors!!"
+echo -e ""
+echo -e "$line CODED BY ABYSS WALKER"
+echo -e ""
+echo "<====================================================>"
+echo -e "$line Youtube    : Abyss Walker"
+echo -e "$line Facebook   : Abyss Project"
+echo -e "$line Instagram  : abysswalker260"
+echo -e "$line Github     : https://github.com/AbyssExploit"
+date
+echo "<====================================================>"
+echo -e "$line                 WARNING                     $line"
+echo -e "               Do With You Own Risk" | lolcat
+echo ""
 echo -e " ∆ Silahkan Pilih Tools Yang Ingin Kalian Install ∆" | lolcat
 
 echo -e "__________________________________" | lolcat
@@ -79,8 +93,8 @@ apt install python2
 git clone https://github.com/verluchie/instabot.py
 mv  instabot.py $HOME
 cd $HOME/instabot.py
-pip2 install -r requirements.txt
-python2 example.py
+pip install -r requirements.txt
+python example.py
 fi
 
 if [ $asu = 3 ] || [ $asu = 3 ]
@@ -173,11 +187,11 @@ sleep 3
 apt update
 apt upgrade
 apt install unzip -y
-pkg install nodejs-lts -y
+apt install nodejs-lts -y
 git clone https://github.com/officialputuid/toolsig.git
 mv toolsig $HOME
 cd $HOME/toolsig
-unzip lib.zip
+npm i
 node index.js
 fi
 
